@@ -12,7 +12,7 @@ media
 # Python # 
 *.py[cod] 
 *$py.class 
-secret_setting.py
+secret_settings.py
 
 # Distribution / packaging 
 .Python build/ 
