@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dump List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body> 
+    <nav>
+        <div class="container nav-wrapper">
+            <a href="/" class="brand-logo">Dump List</a>
+            <ul id="nav-mobile" class="right">
+                <li><a href="/">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h1 style="text-align: center">What do you want to search for on DumpList?</h1>
+        <div class="row">
+            <div class="col s4">
+                <!-- Promo content 1-->
+                <div class="center">
+                    <i class="large material-icons" style="color: #f2c922">flash_on</i>
+                    <p>Fast craigslist web scraper</p>
+                    <p class="light center">Search whatever you want. So neat and pretty, no?</p>
+                </div>
+            </div>
+
+            <div class="col s4">
+                <!-- Promo content 1-->
+                <div class="center">
+                    <i class="large material-icons" style="color: #ec4218">camera</i>
+                    <p>Filter your searches</p>
+                    <p class="light center">Filter your content based on prices, easy.</p>
+                </div>
+            </div>
+
+            <div class="col s4">
+                <!-- Promo content 1-->
+                <div class="center">
+                    <i class="large material-icons" style="color: blue">chrome_reader_mode</i>
+                    <p>Definitely looks better than Craigslist</p>
+                    <p class="light center">I'm just practicing, you can take a look around.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        {% block content %}
+
+        {% endblock content %}
+
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
