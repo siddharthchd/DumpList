@@ -11,7 +11,10 @@ cffi @ file:///tmp/build/80754af9/cffi_1613246945912/work
 chardet @ file:///tmp/build/80754af9/chardet_1607706746162/work
 click @ file:///home/linux1/recipes/ci/click_1610990599742/work
 cryptography @ file:///tmp/build/80754af9/cryptography_1615532411702/work
+dj-database-url==0.5.0
 Django @ file:///tmp/build/80754af9/django_1613762073373/work
+django-heroku==0.3.1
+gunicorn==20.0.4
 idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
 mypy-extensions==0.4.3
 pathspec==0.7.0
@@ -30,3 +33,4 @@ toml @ file:///tmp/build/80754af9/toml_1616166611790/work
 typed-ast @ file:///tmp/build/80754af9/typed-ast_1610484547928/work
 typing-extensions @ file:///home/ktietz/src/ci_mi/typing_extensions_1612808209620/work
 urllib3 @ file:///tmp/build/80754af9/urllib3_1615837158687/work
+whitenoise==5.2.0

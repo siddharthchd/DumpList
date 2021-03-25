@@ -1,0 +1,1 @@
+web: gunicorn dump_list.wsgi
