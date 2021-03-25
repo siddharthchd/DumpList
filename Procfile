@@ -1,1 +1,1 @@
-web: gunicorn dump_list.wsgi
+gunicorn DumpList.wsgi:application --preload --workers 1
